@@ -1,11 +1,7 @@
-table{
-    border-radius: 50;
-    
-}
-.oval{
-    content: "";
-    position: absolute;
-    width: 140px;
-    border: 10px solid #000000;
-    border-radius: 50%;
+table,tr,td,th{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:skyblue;
+    padding: 2px;
+   
 }
