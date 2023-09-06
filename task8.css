@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th{
+    background-color: rgb(7, 161, 7);
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+td{
+    border: 1px;
+    padding: 8px;
+    color: black;
+}

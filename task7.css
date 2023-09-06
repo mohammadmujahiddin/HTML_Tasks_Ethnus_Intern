@@ -1,0 +1,41 @@
+ .vertical-nav {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    border-spacing: 10px;
+}
+
+.vertical-nav a {
+    color: darkblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    background-color: aqua;
+}
+.vertical-nav a.home {
+    background-color: orange;
+    color: white;
+}
+
+
+.horizontal-nav {
+    border: 2px solid black;
+    overflow:hidden;
+    max-width: 400px; 
+    margin: 0 auto; 
+    background-color: white;
+    padding: 5px;
+}
+
+.horizontal-nav a {
+    float: left;
+    display: block;
+    color:darkblue; /* Default color for links */
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #dbdbdb;
+}
+.horizontal-nav a.home {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}

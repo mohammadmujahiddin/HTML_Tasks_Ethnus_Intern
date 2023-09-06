@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./task12.css">
+</head>
+<body>
+    <div class="form-frame">
+        <form>
+            <div class="form-row">
+                <div class="form-label">Name:</div>
+                <div class="form-input">
+                    <input type="text" width="50%" name="name" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Email:</div>
+                <div class="form-input">
+                    <input type="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Password:</div>
+                <div class="form-input">
+                    <input type="password" name="password" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Phone Number:</div>
+                <div class="form-input">
+                    <input type="tel" name="phoneNumber" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Gender:</div>
+                <div class="form-input">
+                    <input type="radio" name="gender" value="male" required> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="others"> Others
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Indian Languages:</div>
+                <div class="form-input">
+                    <select name="Language">
+                        <option value="hindi">Hindi</option>
+                        <option value="telugu">Telugu</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="bengali">Bengali</option>
+                        <!-- Add more Indian languages here -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Zip Code:</div>
+                <div class="form-input">
+                    <input type="number" width="100%" name="zipCode" class="zip" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">About:</div>
+                <div class="form-input">
+                    <textarea name="about"></textarea>
+                    
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label"></div>
+                <div class="form-input">
+                    <input type="checkbox" name="declaration" class="declaration" required>
+                    I declare that all the given details are true
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label"></div>
+                <div class="form-input">
+                    <input type="submit" value="Register">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

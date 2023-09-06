@@ -1,0 +1,66 @@
+        /* Style for the side navigation */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            
+        }
+
+        /* Style for the sidenav links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* Style for the sidenav links on hover */
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        /* Style for the close button */
+        .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            padding: 16px;
+            color: #000;
+        }
+
+        /* Style for the open button */
+        #openNav {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            padding: 16px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Style for different online shopping site buttons */
+        .site-button {
+            background-color: green;
+        }
+
+        .site-button.blue {
+            background-color: blue;
+        }
+
+        .site-button.red {
+            background-color: red;
+        }
+
+        .site-button.black {
+            background-color: #333;
+        }

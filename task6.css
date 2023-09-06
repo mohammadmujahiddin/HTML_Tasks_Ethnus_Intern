@@ -1,0 +1,11 @@
+table{
+    border-radius: 50;
+    
+}
+.oval{
+    content: "";
+    position: absolute;
+    width: 140px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+}
