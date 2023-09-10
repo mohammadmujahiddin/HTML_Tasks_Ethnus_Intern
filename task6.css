@@ -1,7 +1,19 @@
-table,tr,td,th{
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color:skyblue;
-    padding: 2px;
-   
-}
+ #first{
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main{
+            border-radius: 16px;
+        }
+        #next{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .below{
+            width: 80px;
+            height: 40px;
+            border-color: rgba(132, 182, 25, 0.669);
+            border-width: 3px;
+        }
