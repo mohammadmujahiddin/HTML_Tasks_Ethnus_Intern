@@ -3,39 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task-9</title>
     <link rel="stylesheet" href="./task9.css">
 </head>
 <body>
-    <span id="openNav" onclick="openNav()">&#9776; Open</span>
+    <div class="main">
+        <div class="sidenav">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"></div>
+            <div class="d4"></div>
+        </div>
 
-    <!-- Side navigation -->
-    <div id="mySidenav" class="sidenav">
-        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#" class="site-button">Site 1</a>
-        <a href="#" class="site-button blue">Site 2</a>
-        <a href="#" class="site-button red">Site 3</a>
-        <a href="#" class="site-button black">Site 4</a>
+        <div class="p-content">
+            <h3><b>Hoverable Sidenav Buttons</b></h3>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
     </div>
-
-    <!-- Content area -->
-    <div id="main">
-        <h2>Main Content</h2>
-        <p>Hover over the "Open" button to open the side navigation with different online shopping site buttons.</p>
-    </div>
-
-    <script>
-        // Function to open the side navigation
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        // Function to close the side navigation
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            
-        }
-    </script>
-
 </body>
 </html>
