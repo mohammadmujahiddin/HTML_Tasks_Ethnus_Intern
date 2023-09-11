@@ -1,66 +1,63 @@
-        /* Style for the side navigation */
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 0;
+        }
+
+        .main {
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            height: 400px;
+            width: 500px;
+            display: flex;
+        }
+
         .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #000;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            align-items: center; /* Center the content vertically */
         }
 
-        /* Style for the sidenav links */
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            display: block;
-            transition: 0.3s;
+        .d1,
+        .d2,
+        .d3,
+        .d4 {
+            width: 35px;
+            height: 35px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: transparent;
+            margin-bottom: 10px;
+            transition: transform 0.1s; /* Add a transition for smooth change */
         }
 
-        /* Style for the sidenav links on hover */
-        .sidenav a:hover {
-            color: #f1f1f1;
+        .d1:hover,
+        .d2:hover,
+        .d3:hover,
+        .d4:hover {
+            transform: scale(1.1); /* Scale the individual div on hover */
         }
 
-        /* Style for the close button */
-        .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            padding: 16px;
-            color: #000;
+        .d1 {
+            background-color: rgb(18, 154, 74);
         }
 
-        /* Style for the open button */
-        #openNav {
-            position: absolute;
-            top: 0;
-            left: 10px;
-            padding: 16px;
-            font-size: 30px;
-            color: white;
-            cursor: pointer;
+        .d2 {
+            background-color: rgb(32, 146, 239);
         }
 
-        /* Style for different online shopping site buttons */
-        .site-button {
-            background-color: green;
+        .d3 {
+            background-color: rgb(235, 35, 35);
         }
 
-        .site-button.blue {
-            background-color: blue;
+        .d4 {
+            background-color: rgb(34, 30, 30);
         }
 
-        .site-button.red {
-            background-color: red;
-        }
-
-        .site-button.black {
-            background-color: #333;
+        .p-content {
+            padding-left: 30px;
         }
